@@ -1,6 +1,6 @@
 import React from 'react'
 import HomeTop from '../../Components/HomeTop/HomeTop'
-import homeImg from '/Users/xiongfeng/reactProjectFolder/glass_shopping/src/images/recoGirl.png'
+import homeImg from '../../images/recoGirl.png'
 import SixProductList from '../../Components/SixProductList/SixProductList'
 import recShareFeatured from '../../data/recommendedData'
 import { useState, useEffect } from 'react'

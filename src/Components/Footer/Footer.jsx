@@ -1,5 +1,5 @@
 import React from 'react'
-import mainlogo from "/Users/xiongfeng/reactProjectFolder/glass_shopping/src/images/navbarLogo.png"
+import mainlogo from "../../images/navbarLogo.png"
 import './Footer.css'
 
 export default function Footer() {

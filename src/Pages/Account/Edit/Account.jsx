@@ -1,6 +1,6 @@
 import React from 'react'
-import accountBac from'/Users/xiongfeng/reactProjectFolder/glass_shopping/src/images/accountBac.jpg'
-import userImg from '/Users/xiongfeng/reactProjectFolder/glass_shopping/src/images/userImg.jpg'
+import accountBac from'../../../images/accountBac.jpg'
+import userImg from '../../../images/userImg.jpg'
 import { useDispatch,useSelector } from 'react-redux'
 import './Account.css'
 

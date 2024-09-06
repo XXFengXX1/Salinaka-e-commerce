@@ -1,6 +1,6 @@
 import React from 'react'
 import HomeTop from '../../Components/HomeTop/HomeTop'
-import homeImg from '/Users/xiongfeng/reactProjectFolder/glass_shopping/src/images/banner-girl.789f1fa6f451ad26c5039fcbc049ace7.png'
+import homeImg from '../../images/banner-girl.789f1fa6f451ad26c5039fcbc049ace7.png'
 import {Link} from 'react-router-dom'
 import { useState,useEffect } from 'react'
 import shareFeatured from '../../data/homeFeaturedData'

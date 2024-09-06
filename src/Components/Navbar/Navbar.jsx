@@ -1,7 +1,7 @@
 import React, { useState , useRef,useEffect } from 'react'
 import  './Navbar.css'
-import mainlogo from "/Users/xiongfeng/reactProjectFolder/glass_shopping/src/images/navbarLogo.png"
-import searchIcon from '/Users/xiongfeng/reactProjectFolder/glass_shopping/src/images/magnifying-glass.svg'
+import mainlogo from "../../images/navbarLogo.png"
+import searchIcon from '../../images/magnifying-glass.svg'
 import{Link, useNavigate} from "react-router-dom"
 import ShoppingBasketOutlinedIcon from '@mui/icons-material/ShoppingBasketOutlined';
 import FilterAltOutlinedIcon from '@mui/icons-material/FilterAltOutlined';
@@ -15,7 +15,7 @@ import { AllWhite, NavClick } from '../../Redux/meanuSlice'
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
 import LogoutIcon from '@mui/icons-material/Logout';
-import userImg from '/Users/xiongfeng/reactProjectFolder/glass_shopping/src/images/userImg.jpg'
+import userImg from '../../images/userImg.jpg'
 import { setSignInState } from '../../Redux/userSlice'
 
 export default function Navbar() {
