@@ -1,0 +1,110 @@
+.ProductBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #e1e1e1;
+  height: 100px;
+}
+.ProductBar .text {
+  margin-left: 0px;
+}
+.ProductBar .leftButton {
+  display: flex;
+  flex-direction: column;
+  width: 35px;
+  box-sizing: border-box;
+  padding-left: 4px;
+}
+.ProductBar .leftButton .button {
+  padding: 0;
+  width: 35px ;
+  height: 45px;
+  border: 1px solid #e1e1e1;
+  color: #4a4a4a;
+  background-color: white;
+  transition: 0.5s;
+}
+.ProductBar .leftButton .button:hover {
+  background: #cacaca;
+  border: 1px solid #e1e1e100;
+}
+.ProductBar .leftButton .button svg {
+  color: black;
+  width: 12px;
+  height: 12px;
+  padding: 0;
+}
+.ProductBar .midProductInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  box-sizing: border-box;
+  padding: 20px;
+}
+.ProductBar .midProductInfo img {
+  pointer-events: none;
+  width: 90px;
+}
+.ProductBar .midProductInfo .textWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 270px;
+  box-sizing: border-box;
+  padding: 0 20px;
+  padding-right: 60px;
+}
+.ProductBar .midProductInfo .textWrapper .title {
+  width: 100%;
+  font-size: 16px;
+  color: black;
+  padding-bottom: 6px;
+}
+.ProductBar .midProductInfo .textWrapper .bottomWrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ProductBar .midProductInfo .textWrapper .bottomWrapper .text {
+  color: #6d6d6d;
+  font-size: 12px;
+  padding-bottom: 6px;
+}
+.ProductBar .midProductInfo .textWrapper .bottomWrapper .Imptext {
+  color: black;
+  font-size: 12px;
+}
+.ProductBar .midProductInfo .textWrapper .bottomWrapper .color {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+.ProductBar .midProductInfo .price {
+  font-size: 16px;
+  width: 50px;
+  padding: 0 10px;
+}
+.ProductBar .deleteButton {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #e1e1e1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.ProductBar .deleteButton svg {
+  width: 15px;
+  height: 15px;
+}
+.ProductBar .deleteButton:hover {
+  background: #cacaca;
+  border: 1px solid #e1e1e100;
+}

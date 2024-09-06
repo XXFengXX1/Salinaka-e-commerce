@@ -1,0 +1,205 @@
+.productDetail {
+  height: 512px;
+  margin: 20px 160px;
+  width: auto;
+}
+.productDetail .backButton {
+  font-size: 20px;
+  font-weight: 550;
+  width: auto;
+}
+.productDetail .proContentWrapper {
+  display: grid;
+  grid-template-columns: 150px minmax(400px, 1fr) minmax(500px, 501px);
+}
+.productDetail .leftImageChoice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border: 0.5px solid rgba(162, 162, 162, 0.716);
+}
+.productDetail .leftImageChoice img {
+  width: 90%;
+  margin-top: 10px;
+  border: 0.5px solid rgba(170, 170, 170, 0.552);
+}
+.productDetail .mainImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f1f1f1;
+  height: 100%;
+  border: 0.5px solid rgba(162, 162, 162, 0.716);
+  border-left: none;
+  border-right: none;
+}
+.productDetail .mainImage img {
+  width: 400px;
+}
+.productDetail .detailWrapper {
+  border: 0.5px solid rgba(162, 162, 162, 0.716);
+  grid-column: 3;
+  box-sizing: border-box;
+  padding: 40px;
+  flex-shrink: 0;
+}
+.productDetail .detailWrapper .subTitle {
+  color: #6f6f6f;
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+.productDetail .detailWrapper p {
+  color: #000000;
+  font-size: 12px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.productDetail .detailWrapper .title,
+.productDetail .detailWrapper .price {
+  font-size: 30px;
+  color: black;
+  font-weight: 550;
+  margin-bottom: 30px;
+}
+.productDetail .detailWrapper hr {
+  opacity: 0.15;
+}
+.productDetail .detailWrapper .selectContainer {
+  display: flex;
+  position: relative;
+}
+.productDetail .detailWrapper .selectContainer svg {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  opacity: 0.5;
+  right: 10px;
+  border-left: 1px solid #5a5a5a9a;
+  padding-left: 10px;
+  top: 5px;
+  color: #5a5a5a;
+  pointer-events: none;
+}
+.productDetail .detailWrapper .selectContainer svg:hover {
+  opacity: 0.8;
+}
+.productDetail .detailWrapper select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  width: 100%;
+  height: 36px ;
+  border: 0.5px solid #838383;
+  margin-bottom: 20px;
+  position: relative;
+  appearance: none;
+  border-radius: 4px;
+}
+.productDetail .detailWrapper select:first-child {
+  opacity: 0.5;
+  padding-left: 10px;
+  font-size: 14px;
+}
+.productDetail .detailWrapper select option {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #000000;
+}
+.productDetail .detailWrapper select option:disabled {
+  opacity: 0.1;
+}
+.productDetail .detailWrapper .colorDot {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  border-radius: 50%;
+  margin-right: 16px;
+  margin-bottom: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+  position: relative;
+}
+.productDetail .detailWrapper .colorDot:hover {
+  transform: scale(0.9);
+}
+.productDetail .detailWrapper .colorDot svg {
+  position: absolute;
+  color: #ffffff;
+  right: 3px;
+  top: 2px;
+}
+.productDetail .detailWrapper button {
+  height: 35px;
+  width: 140px;
+  transition: 0.5s;
+  background: #101010;
+  border: 1px solid #101010;
+  color: #fff;
+  font-weight: 500;
+  font-size: 12px;
+  text-decoration: none;
+  cursor: pointer;
+  line-height: 5px;
+}
+.productDetail .detailWrapper button:hover {
+  background-color: #363636fe;
+}
+.productDetail .addedProduct button {
+  background: #ffffff;
+  border: 0.1px solid #10101080;
+  color: #000000;
+}
+.productDetail .addedProduct button:hover {
+  background: #cacaca;
+  border: none;
+}
+@media screen and (max-width: 960px) {
+  .productDetail {
+    height: auto;
+    margin: 20px 90px;
+  }
+  .productDetail .backButton {
+    font-size: 20px;
+    font-weight: 550;
+  }
+  .productDetail .proContentWrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .productDetail .proContentWrapper .leftImageChoice {
+    height: 120px;
+    width: 100%;
+    justify-content: start;
+    display: flex;
+  }
+  .productDetail .proContentWrapper .leftImageChoice img {
+    height: 100px;
+    width: 160px;
+  }
+  .productDetail .proContentWrapper .mainImage {
+    width: 100%;
+  }
+  .productDetail .proContentWrapper .detailWrapper {
+    width: 100%;
+  }
+}
+.productPage .backButton {
+  padding-left: 160px;
+  font-size: 20px;
+  display: flex;
+  align-self: center;
+  font-weight: 550;
+  text-decoration: none;
+  color: #000000;
+  width: 300px;
+  box-sizing: border-box;
+}
+.productPage .backButton svg {
+  width: 20px;
+  height: 20px;
+  padding-right: 6px;
+  line-height: 20px;
+  padding-top: 2px;
+}

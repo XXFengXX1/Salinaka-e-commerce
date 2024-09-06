@@ -1,0 +1,133 @@
+.Step1Page{
+    width: 60%;
+    flex-direction: column;
+    margin: 0 auto;
+    display: flex;
+    .topSteps{
+        display: flex;
+        width: 60%;
+        justify-content: space-between;
+        position: relative;
+        margin: 0 auto;
+
+        .hrLine{
+            height: 2px;
+            width: 90%;
+            background-color: #e7e7e7;
+            position: absolute;
+            left: 7%;
+            top: 12px;
+        }
+        .step{
+            position: relative;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            .steptext{
+                text-align: center;
+                font-size: 16px;
+                line-height: 30px;
+            }
+            .circleWrapper{
+                background-color: #e7e7e7;
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+            }
+            .text{
+                margin-top: 10px;
+                font-size: 12px;
+                margin-left: 0px;
+            }
+        }
+        .currentStep{
+            .circleWrapper{
+                background-color: #000000;
+                .steptext{
+                    color: white;
+                }
+            }
+        }
+    }
+    .text,h3{
+        text-align: center;
+        margin-top: 30px;
+        font-size: 12px;
+        margin-left: 40px;
+    }
+    h3{
+        font-size: 16px;
+        margin-left: 40px;
+        margin-top: 60px;
+    }
+    .goodsSection{
+        .text{
+            margin-left: 0px;
+            margin-top: 0px;
+        }
+        flex-grow: 2;
+        border-bottom: 0.5px solid #cfcfcf;
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content:start;
+        box-sizing: border-box;
+        padding: 20px;
+        h5{
+            line-height: 600px;
+            margin: 0 auto;
+            font-weight: normal;
+        }
+        .textWrapper{
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+    .continueSection{
+        box-sizing: border-box;
+        padding: 20px;
+        .subtotal{
+            text-align: right;
+            font-size: 12px;
+        }
+        .total{
+            text-align: right;
+            font-size: 24px;
+            font-weight: 550;
+            margin-top: 10px;
+        }
+        .btnGroup{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            margin-top: 40px;
+            .nextStep{
+                background: #101010;
+                padding: 16px;
+                border: 1px solid #101010;
+                color: #fff;
+                font-weight: 550;
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transition: all .3s ease;
+            }
+            .continueShopping{
+                background: #f2f2f2;
+                color: #7d7d7d;
+                border: 1px solid #e1e1e1; 
+                padding: 16px;
+                font-weight: 550;
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transition: all .3s ease;
+                text-decoration: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,218 @@
+.ShopcontentWrapper {
+  width: 170px;
+  position: relative;
+  overflow: hidden;
+}
+.ShopcontentWrapper button {
+  position: absolute;
+  bottom: -35px;
+  height: 35px;
+  width: 100%;
+  transition: 0.5s;
+  background: #101010;
+  border: 1px solid #101010;
+  color: #fff;
+  font-weight: 500;
+  font-size: 12px;
+  text-decoration: none;
+  cursor: pointer;
+  line-height: 5px;
+}
+.ShopcontentWrapper button:hover {
+  background-color: #363636fe;
+}
+.ShopcontentWrapper:hover .imgWrapper,
+.ShopcontentWrapper:hover .textWrapper {
+  transform: translateY(-35px);
+  transition: 0.5s;
+}
+.ShopcontentWrapper:hover .imgWrapper img,
+.ShopcontentWrapper:hover .textWrapper img {
+  transform: translateY(15px) scale(0.7);
+  transition: 0.5s;
+}
+.ShopcontentWrapper:hover button {
+  bottom: 0px;
+}
+.ShopContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  box-sizing: border-box;
+  padding: 80px;
+  padding-top: 20px;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.ShopContainer .addedProduct {
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 10px 15px;
+  border: 1px solid #a6a5a5;
+}
+.ShopContainer .addedProduct button {
+  background: #ffffff;
+  border: 0.1px solid #10101080;
+  color: #000000;
+}
+.ShopContainer .addedProduct button:hover {
+  background: #cacaca;
+  border: none;
+}
+.ShopContainer .productWrapper {
+  display: flex;
+  text-decoration: none;
+  border: 1px solid #e1e1e1;
+  flex-wrap: wrap;
+  transition: 0.5s;
+  overflow: hidden;
+  position: relative;
+}
+.ShopContainer .productWrapper .imgWrapper {
+  width: 100%;
+  background: #f1f1f1;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.ShopContainer .productWrapper img {
+  width: 100%;
+  transition: 0.5s;
+}
+.ShopContainer .productWrapper .textWrapper {
+  transition: 0.5s;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+.ShopContainer .productWrapper .textWrapper .title {
+  font-size: 12px;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 20px;
+}
+.ShopContainer .productWrapper .textWrapper .subTitle {
+  font-size: 10px;
+  font-weight: 500;
+  color: #868686;
+  text-decoration: none;
+  font-style: italic;
+  margin-bottom: 40px;
+}
+.ShopContainer .productWrapper .textWrapper .price {
+  font-size: 14px;
+  font-weight: 550;
+  color: #000;
+  margin-bottom: 20px;
+}
+.shopUI {
+  margin: 0;
+  padding: 0;
+}
+.shopUI button {
+  display: block;
+  background: #101010;
+  border: 1px solid #101010;
+  color: #fff;
+  font-weight: 500;
+  font-size: 12px;
+  text-decoration: none;
+  padding: 12px 16px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.dis-none {
+  display: none;
+  position: absolute;
+  top: -100%;
+  pointer-events: none;
+  z-index: -1;
+}
+.searchPage {
+  position: relative;
+}
+.searchPage .ShopContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  box-sizing: border-box;
+  padding: 80px;
+  padding-top: 50px;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.searchPage .ShopContainer .addedProduct {
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 10px 15px;
+  border: 1px solid #a6a5a5;
+}
+.searchPage .ShopContainer .addedProduct button {
+  background: #ffffff;
+  border: 0.1px solid #10101080;
+  color: #000000;
+}
+.searchPage .ShopContainer .addedProduct button:hover {
+  background: #cacaca;
+  border: none;
+}
+.searchPage .ShopContainer .productWrapper {
+  display: flex;
+  text-decoration: none;
+  border: 1px solid #e1e1e1;
+  flex-wrap: wrap;
+  transition: 0.5s;
+  overflow: hidden;
+  position: relative;
+}
+.searchPage .ShopContainer .productWrapper .imgWrapper {
+  width: 100%;
+  background: #f1f1f1;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.searchPage .ShopContainer .productWrapper img {
+  width: 100%;
+  transition: 0.5s;
+}
+.searchPage .ShopContainer .productWrapper .textWrapper {
+  transition: 0.5s;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+.searchPage .ShopContainer .productWrapper .textWrapper .title {
+  font-size: 12px;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 20px;
+}
+.searchPage .ShopContainer .productWrapper .textWrapper .subTitle {
+  font-size: 10px;
+  font-weight: 500;
+  color: #868686;
+  text-decoration: none;
+  font-style: italic;
+  margin-bottom: 40px;
+}
+.searchPage .ShopContainer .productWrapper .textWrapper .price {
+  font-size: 14px;
+  font-weight: 550;
+  color: #000;
+  margin-bottom: 20px;
+}
+.searchPage h3 {
+  text-align: center;
+  height: 70vh;
+  width: 1200px;
+  line-height: 500px;
+  margin: 0 auto;
+  background-color: #e7e7e7;
+  font-size: 26px;
+}
+.searchPage .toptext {
+  font-size: 13px;
+  text-align: center;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  right: 42%;
+}
+.searchPage .ShopcontentWrapper {
+  width: 170px;
+}

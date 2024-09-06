@@ -1,0 +1,112 @@
+.ProductBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #e1e1e1;
+    height: 100px;
+    .text{
+        margin-left: 0px;
+    }
+    .leftButton{
+        display: flex;
+        flex-direction: column;
+        width: 35px;
+        box-sizing: border-box;
+        padding-left: 4px;
+        .button{
+            padding: 0;
+            width:35px ;
+            height: 45px;
+            border: 1px solid #e1e1e1;
+            color: #4a4a4a;
+            background-color: white;
+            transition: 0.5s;
+            &:hover{
+                background: #cacaca;
+                border: 1px solid #e1e1e100;
+            }
+            svg{
+                color: black;
+                width: 12px;
+                height: 12px;
+                padding: 0;
+            }
+        }
+    }
+    .midProductInfo{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 80%;
+        box-sizing: border-box;
+        padding: 20px;
+        img{
+            pointer-events: none;
+            width: 90px;
+        }
+        .textWrapper{
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+            width: 270px;
+            box-sizing: border-box;
+            padding:0 20px;
+            padding-right: 60px;
+            .title{
+                width: 100%;
+                font-size: 16px;
+                color: black;
+                padding-bottom: 6px;
+            }
+            .bottomWrapper{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .text{
+                    color: #6d6d6d;
+                    font-size: 12px;
+                    padding-bottom: 6px;
+                }
+                .Imptext{
+                    color: black;
+                    font-size: 12px;
+                }
+                .color{
+                    width:15px;
+                    height: 15px;
+                    border-radius: 50%;
+                }
+            }
+        }
+        .price{
+            font-size: 16px;
+            width: 50px;
+            padding:0 10px;
+        }
+    }
+    .deleteButton{
+        width: 40px;
+        height: 40px;
+        border: 1px solid #e1e1e1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 10px;
+        transition: 0.5s;
+        cursor: pointer;
+        svg{
+            width: 15px;
+            height: 15px;
+        }
+
+        &:hover{
+            background: #cacaca;
+            border: 1px solid #e1e1e100;
+        }
+        
+    }
+}

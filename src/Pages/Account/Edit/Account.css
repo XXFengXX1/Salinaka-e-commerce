@@ -1,0 +1,57 @@
+.accountPage {
+  width: 700px;
+  margin: 0 auto;
+}
+.accountPage .topWrapper {
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  padding: 20px;
+  padding-left: 40px;
+  background: #f2f2f2;
+  border-bottom: 1px solid #e1e1e1;
+}
+.accountPage .topWrapper .text {
+  font-size: 16px;
+}
+.accountPage .contentWrapper {
+  background-color: white;
+  width: 100%;
+  height: 500px;
+  box-sizing: border-box;
+  padding: 20px;
+}
+.accountPage .contentWrapper img {
+  width: 100%;
+  height: 150px;
+}
+.accountPage .contentWrapper .content {
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative;
+  top: -50px;
+}
+.accountPage .contentWrapper .content .header {
+  margin-top: 30px;
+  margin-bottom: 16px;
+  color: #383838;
+  font-size: 14px;
+}
+.accountPage .contentWrapper .content .header .Address {
+  font-style: italic;
+  color: #656565;
+}
+.accountPage .contentWrapper .content .imgWrapper {
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-bottom: 40px;
+  border: 2px solid white;
+}
+.accountPage .contentWrapper .content .imgWrapper img {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  right: 0%;
+}
