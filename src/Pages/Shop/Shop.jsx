@@ -227,7 +227,6 @@ export default function Shop() {
 
   useEffect (()=>{
     filterProducts()
-
     return ()=>{
     }
   },[priceFilter,shopData])
@@ -259,8 +258,6 @@ export default function Shop() {
           <button onClick={handleShowing}>Show More Items</button>
         </div>
         <Footer></Footer>
-
-
       </div>
 
       <div className={showingMore && !isApplied? "moreProducts":'dis-none' }>
