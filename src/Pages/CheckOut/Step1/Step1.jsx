@@ -2,8 +2,8 @@ import React, { useEffect } from 'react'
 import  './Step1.css'
 import{Link, useNavigate} from "react-router-dom"
 import { useDispatch,useSelector } from 'react-redux'
-import { addToBasket,removeFromBasket,removeAll } from '/Users/xiongfeng/reactProjectFolder/glass_shopping/src/Redux/shoppingSlice.js'
-import ProductBar from '/Users/xiongfeng/reactProjectFolder/glass_shopping/src/Components/ProductBar/ProductBar.jsx'
+import { addToBasket,removeFromBasket,removeAll } from '../../../Redux/shoppingSlice'
+import ProductBar from '../../../Components/ProductBar/ProductBar'
 import { isAllOf } from '@reduxjs/toolkit'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
