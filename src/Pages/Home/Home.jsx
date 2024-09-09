@@ -36,7 +36,7 @@ export default function Home() {
   }, [])
 
   const dispatch = useDispatch()
-  //navigat to rec page 
+  //navigate to rec page 
   const goRec = ()=>{
     dispatch(GoRec())
   }
@@ -44,6 +44,7 @@ export default function Home() {
   const goFeatured = ()=>{
     dispatch(GoFeatured())
   }
+  
   return (
     <div className="home">
 

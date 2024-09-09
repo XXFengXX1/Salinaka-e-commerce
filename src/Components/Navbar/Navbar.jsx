@@ -161,7 +161,7 @@ export default function Navbar() {
         </div>
         {!isSignIn?<div className="signInUpGroup">
           <Link to='/signUp' className="signUp">Sign Up</Link>
-          <Link className="signIn">Sign In</Link>
+          <Link to='/signIn' className="signIn">Sign In</Link>
         </div> :
           <div className='user'>
             <div className="name">{user.username}</div>
